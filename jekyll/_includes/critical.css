@@ -273,6 +273,10 @@ main {
     padding: 20px 40px;
     border-bottom: 3px solid #EDF9FB;
   }
+  .service-icon, .reason-icon {
+    padding-right: 16px;
+    width: 128px;
+  }
   .address {
     text-align: right;
   }
@@ -340,10 +344,14 @@ main {
     margin-left: -17px;
     margin-right: -17px;
   }
+  .service-icon, .reason-icon {
+    padding-right: 16px;
+    width: 128px;
+  }
   .copyright-logo {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 96px;
+    margin-top: 0px;
   }
 }
 @media (max-width: 640px) {
@@ -398,6 +406,10 @@ main {
     margin-left: -17px;
     margin-right: -17px;
   }
+  .service-icon, .reason-icon {
+    padding-right: 16px;
+    width: 110px;
+  }
   .copyright-logo {
     margin-left: auto;
     margin-right: auto;
@@ -427,11 +439,7 @@ main {
 .our-services h2 {
   color: #1CADC8;
 }
-.service-icon {
-  padding-right: 16px;
-  width: 50%;
-}
-.service-text {
+.service-text, .reason-text {
   width: 50%;
   padding-left: 16px;
   font-family: sans-serif;
@@ -443,7 +451,7 @@ main {
 .service-list {
   margin-top: 32px;
 }
-.service-content {
+.service-content, .reason-content {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -472,25 +480,6 @@ main {
 }
 .why-us h2 {
   color: #1CADC8;
-}
-.reason-content {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.reason-icon {
-  width: 40%;
-  padding-right: 16px;
-}
-.reason-text {
-  width: 60%;
-  padding-left: 16px;
-  font-family: sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #272727;
 }
 /** Footer **/
 .footer {
