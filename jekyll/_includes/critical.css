@@ -167,7 +167,7 @@ ul ol {
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/fonts/open-sans-700.woff2) format('woff2'), url(/fonts/open-sans-700.ttf) format('truetype');
 }
 /** Generic **/
-h1, h2 {
+h1, h2, h3 {
   font-family: sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -177,6 +177,11 @@ h2 {
   line-height: 32px;
   font-size: 26px;
   margin-bottom: 24px;
+}
+h3 {
+  line-height: 26px;
+  font-size: 18px;
+  margin-bottom: 18px;
 }
 li {
   list-style-type: none;
@@ -207,7 +212,7 @@ main {
   background-position: center;
   background-color: #153f89;
 }
-.welcome-logo {
+.welcome .welcome-logo {
   display: block;
   margin-bottom: 160px;
   margin-left: auto;
@@ -231,7 +236,7 @@ main {
     font-size: 70px;
     line-height: 66px;
   }
-  .about-us, .our-services, .why-choose-us-1, .why-choose-us-2, .why-us, .footer {
+  .about-us, .our-services, .why-choose-us-1, .why-choose-us-2, .why-us, .privacy, .footer {
     padding: 78px 60px;
   }
   .welcome {
@@ -292,7 +297,7 @@ main {
     font-size: 60px;
     line-height: 60px;
   }
-  .about-us, .our-services, .why-choose-us-1, .why-choose-us-2, .why-us, .footer {
+  .about-us, .our-services, .why-choose-us-1, .why-choose-us-2, .why-us, .privacy, .footer {
     padding: 96px 32px;
   }
   .welcome {
@@ -359,7 +364,7 @@ main {
     font-size: 40px;
     line-height: 40px;
   }
-  .about-us, .our-services, .why-choose-us-1, .why-choose-us-2, .why-us, .footer {
+  .about-us, .our-services, .why-choose-us-1, .why-choose-us-2, .why-us, .privacy, .footer {
     padding: 72px 32px;
   }
   .welcome {
@@ -481,6 +486,41 @@ main {
 .why-us h2 {
   color: #1CADC8;
 }
+/** Privacy **/
+.privacy {
+  background-color: #EDF9FB;
+  color: #444444;
+}
+.privacy .logo {
+  display: block;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 240px;
+  height: 40px;
+}
+@media (max-width: 640px) {
+  .privacy h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+.privacy h2 {
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+.privacy h3 {
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.privacy ul {
+  margin: 0px 32px;
+}
+.privacy li {
+  list-style-type: disc;
+}
+
 /** Footer **/
 .footer {
   background-color: #1CADC8;
@@ -517,6 +557,7 @@ main {
 /** Font magic **/
 .fonts-loaded h1,
 .fonts-loaded h2,
+.fonts-loaded h3,
 .fonts-loaded .service-index,
 .fonts-loaded .service-text,
 .fonts-loaded .reason-text,
