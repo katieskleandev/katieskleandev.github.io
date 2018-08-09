@@ -1,0 +1,41 @@
+<head>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Katie's Klean - Office Cleaning in London</title>
+  <meta name="title" content="Katie's Klean - Office Cleaning in London"/>
+  <meta name="description" content="We provide office cleaning services in London to a wide range of clients. From small to medium sized companies, to large multinationals and blue chip PLC's."/>
+
+  <!--Open Graph meta -->
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:title" content="Katie's Klean - Office Cleaning in London" />
+  <meta property="og:description" content="We provide office cleaning services in London to a wide range of clients, from small to medium sized companies right up to large multi-nationals and blue chip PLC’s." />
+  <meta property="og:image" content="/images/header-640-2x.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google analytics -->
+  {% if site.environment == 'production' %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics_account }}"></script>
+  <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.analytics_account }}');
+  </script>
+  {% endif %}
+
+  <!-- Critical CSS -->
+  <style>
+    {% include critical.css %}
+  </style>
+
+  <!-- Font face observer magic -->
+  <script>
+    if(sessionStorage && sessionStorage.fontsLoaded){
+        var html = document.documentElement;
+        html.classList.add("fonts-loaded");
+    }
+  </script>
+</head>

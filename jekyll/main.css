@@ -9279,6 +9279,12 @@ main {
   font-family: sans-serif;
   text-align: center;
 }
+a {
+  color: #ffffff;
+}
+a:hover {
+  color: #EAF5FF;
+}
 .address {
   font-weight: 700;
 }
@@ -9292,7 +9298,6 @@ main {
   margin-bottom: 4px;
   display: inline-block;
 }
-
 .copyright {
   margin-top: 0px;
 }
@@ -9303,6 +9308,9 @@ main {
   height: 24px;
 }
 .copyright-text {
+  font-size: 13px;
+}
+.privacy-link {
   font-size: 13px;
 }
 /** Font magic **/
