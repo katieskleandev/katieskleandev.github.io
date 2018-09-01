@@ -517,8 +517,14 @@ main {
 .privacy ul {
   margin: 0px 32px;
 }
-.privacy li {
+.privacy ul li {
   list-style-type: disc;
+}
+.roman li {
+  list-style-type: upper-roman;
+}
+.latin li {
+  list-style-type: upper-latin;
 }
 
 /** Footer **/
