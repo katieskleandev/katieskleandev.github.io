@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Service",
+  "serviceType": "Office cleaning",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Katie's Klean Ltd.",
+    "description": "We provide office cleaning services in London to a wide range of clients in London. From small and medium-sized companies, to large multinationals and blue chip PLCs we will adapt our cleaning services to suit your needs.",
+    "logo": "https://www.katiesklean.co.uk/images/katies-klean-logo.png",
+    "image": "https://www.katiesklean.co.uk/images/katies-klean-logo.png",
+    "url": "https://www.katiesklean.co.uk/",
+    "email": "info@katiesklean.co.uk",
+    "telephone": "077 2522 9567"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "London"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Our services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Daily office cleaning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "End of tenancy cleaning for offices"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Residential cleaning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Common area cleaning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Window cleaning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Washroom supplies"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Carpet and upholstery cleaning"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Washroom and feminine hygiene"
+        }
+      }
+    ]
+  }
+}
