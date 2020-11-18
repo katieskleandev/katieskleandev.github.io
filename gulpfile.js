@@ -3,7 +3,7 @@ let child = require('child_process')
 let htmlmin = require('gulp-htmlmin')
 let cleanCSS = require('gulp-clean-css')
 let minify = require('gulp-minify')
-let ghPages = require('gulp-gh-pages')
+let ghPages = require('gulp-gh-pages-latest')
 
 
 gulp.task('jekyll-serve', (gulpCallBack) => {
