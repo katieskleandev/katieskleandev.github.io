@@ -5,10 +5,12 @@ The generated website is hosted from github pages:
 https://github.com/katieskleandev/katieskleandev.github.io/tree/master
 
 ## How to commit to github:
-- Make sure the ssh key is added to github and the key is located for example in: '~/.ssh/katiesklean.pub' (and '~/.ssh/katiesklean' for the private key).
-- Make sure the ssh key is added to ssh-agent: ssh-add ~/.ssh/katiesklean.
-- Have a record in the ssh config for this key:
 
+- Make sure the ssh key is added to github and the key is located for example in: '~/.ssh/katiesklean.pub' (and '~/.ssh/katiesklean' for the private key).
+
+- Make sure the ssh key is added to ssh-agent: ssh-add ~/.ssh/katiesklean.
+
+- Have a record in the ssh config for this key:
 > Host katieskleandev
 >         HostName github.com
 >         User git
